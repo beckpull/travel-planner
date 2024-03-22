@@ -1,0 +1,20 @@
+{
+  "name": "travel-planner",
+  "version": "1.0.0",
+  "description": "As a traveller, I want to be able to create an account, create a new trip for myself using a location from a list, create and view location data, and view all of the trips I'm taking, along with their locations.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seeds": "node seeds/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "pg": "^8.11.3",
+    "sequelize": "^6.37.1"
+  }
+}

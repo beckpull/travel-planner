@@ -12,7 +12,7 @@ Trip.init(
         autoIncrement: true,
     },
     trip_budget: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.DECIMAL,
         allowNull: false,
     },
     traveler_amount: {
